@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="jp.co.sample.dao.mapper.EmpMapper" >
+	<select id="select" resultType="jp.co.sample.entity.EmpEntity">
+		select
+		   id
+		   ,name
+		from
+	       emp
+	</select>
+	
+	<insert id = "insert" parameterType="jp.co.sample.Member">
+	  insert into emp (id, name) values (#{id, javaType=string, jdbcType=VARCHAR} ,#{name, javaType=string, jdbcType=VARCHAR})
+	
+	
+	</insert>
+
+</mapper>

@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Class-Path: lib/spring-jdbc-3.0.6.RELEASE.jar lib/spring-beans-3.0.6.R
+ ELEASE.jar lib/spring-core-3.0.6.RELEASE.jar lib/commons-logging-1.1.
+ 1.jar lib/spring-tx-3.0.6.RELEASE.jar lib/spring-context-3.0.6.RELEAS
+ E.jar lib/spring-expression-3.0.6.RELEASE.jar lib/spring-asm-3.0.6.RE
+ LEASE.jar lib/cglib-nodep-2.2.jar lib/spring-aop-3.0.6.RELEASE.jar li
+ b/aopalliance-1.0.jar lib/spring-batch-core-2.1.7.RELEASE.jar lib/xst
+ ream-1.3.jar lib/xpp3_min-1.1.4c.jar lib/jettison-1.1.jar lib/spring-
+ batch-infrastructure-2.1.7.RELEASE.jar lib/commons-dbcp-1.2.2.jar lib
+ /commons-pool-1.3.jar lib/commons-io-1.4.jar lib/hsqldb-1.8.0.7.jar l
+ ib/aspectjrt-1.6.8.jar lib/aspectjweaver-1.6.8.jar lib/log4j-1.2.14.j
+ ar lib/mybatis-3.2.2.jar lib/mybatis-spring-1.1.1.jar lib/validation-
+ api-1.1.0.Final.jar lib/hibernate-validator-5.0.1.Final.jar lib/jboss
+ -logging-3.1.1.GA.jar lib/classmate-0.8.0.jar lib/el-api-2.2.jar lib/
+ el-impl-2.2.jar
+Build-Jdk: 1.7.0_79
+Built-By: pa-osada
+Created-By: Maven Integration for Eclipse
+Main-Class: org.springframework.batch.core.launch.support.CommandLineJ
+ obRunner
+
